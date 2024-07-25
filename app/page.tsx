@@ -1,11 +1,10 @@
 import Image from "next/image";
+import Navbar from "./pageComponents/Navbar";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>
-        <h1 className="poppins font-bold">test</h1>
-      </div>
-    </main>
+    <div>
+      <Navbar />
+    </div>
   );
 }
