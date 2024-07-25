@@ -42,9 +42,7 @@ function Navbar() {
             </button>
             <button
               style={backgroundColorObject}
-              className={
-                "block sm:w-32 w-full border rounded-lg px-9 py-3 text-sm font-medium transition focus:outline-none hover:bg-customRed hover:text-white border-customRed text-customRed"
-              }
+              className={`block sm:w-32 w-full border rounded-lg px-9 py-3 text-sm font-medium transition focus:outline-none hover:bg-customRed hover:text-white border-customRed text-white`}
               type="button"
             >
               Sign Up
