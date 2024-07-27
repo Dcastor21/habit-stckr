@@ -15,7 +15,7 @@ function LogoAnName() {
         </div>
         {/*Name of the App*/}
         <span
-          style={{ backgroundColor: defaultColor }}
+          style={{ color: defaultColor }}
           className="font-bold text-mainColor"
         >
           Habit
