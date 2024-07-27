@@ -7,7 +7,7 @@ function Dashboard() {
   const user = useUser();
   return (
     <div>
-      hello, {user?.fullName} <SignOutButton>SignOut</SignOutButton>
+      hello, guest <SignOutButton>SignOut</SignOutButton>
     </div>
   );
 }
