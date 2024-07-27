@@ -12,12 +12,12 @@ const AppIcon = ({ color = "000000", width = "64px", height = "64px" }) => (
     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     ></g>
     <g id="SVGRepo_iconCarrier">
       {" "}
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         {" "}
         <path
           fill="#ffffff"
@@ -35,19 +35,19 @@ const AppIcon = ({ color = "000000", width = "64px", height = "64px" }) => (
         ></path>{" "}
         <path
           stroke="#ffffff"
-          stroke-linecap="square"
+          strokeLinecap="square"
           strokeWidth="2"
           d="M32,63 L32,16.9545689"
         ></path>{" "}
         <path
           stroke="#ffffff"
-          stroke-linecap="round"
+          strokeLinecap="round"
           strokeWidth="2"
           d="M44,48 C37.372583,48 32,53.372583 32,60"
         ></path>{" "}
         <path
           stroke="#ffffff"
-          stroke-linecap="round"
+          strokeLinecap="round"
           strokeWidth="2"
           d="M32,48 C25.372583,48 20,53.372583 20,60"
           transform="matrix(-1 0 0 1 52 0)"
@@ -64,13 +64,13 @@ const AppIcon = ({ color = "000000", width = "64px", height = "64px" }) => (
         ></path>{" "}
         <path
           stroke="#ffffff"
-          stroke-linecap="round"
+          strokeLinecap="round"
           strokeWidth="2"
           d="M44,34 C37.372583,34 32,39.372583 32,46"
         ></path>{" "}
         <path
           stroke="#ffffff"
-          stroke-linecap="round"
+          strokeLinecap="round"
           strokeWidth="2"
           d="M32,34 C25.372583,34 20,39.372583 20,46"
           transform="matrix(-1 0 0 1 52 0)"
