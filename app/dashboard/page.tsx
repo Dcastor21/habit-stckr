@@ -8,8 +8,8 @@ function Dashboard() {
   const { user } = useUser();
   return (
     <div className="flex">
-      <div>hello, {user?.lastName}</div> <SignOutButton>SignOut</SignOutButton>
       <Sidebar />
+      <div>hello,{user?.lastName}</div>
     </div>
   );
 }
