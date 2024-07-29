@@ -12,7 +12,7 @@ function Dashboard() {
   const { menuItemsObject } = useGlobalContextProvider();
   const { menuItems } = menuItemsObject;
   const [selectMenu, setSelectedMenu] = useState<menuItemType | null>(null);
-  let selectCompenent = null;
+  let selectComponent = null;
 
   useEffect(() => {
     menuItems.map((singleItem) => {
@@ -24,20 +24,20 @@ function Dashboard() {
 
   switch (selectMenu?.name) {
     case "All Areas":
-      selectCompenent = <Areas />;
+      selectComponent = <Areas />;
       break;
     case "All Habits":
-      selectCompenent = <AllHabits />;
+      selectComponent = <AllHabits />;
       break;
     case "Statistics":
-      selectCompenent = <Statistics />;
+      selectComponent = <Statistics />;
       break;
   }
   const { user } = useUser();
   return (
-    <div className="flex">
+    <div className="flex bg-slate-50">
       <Sidebar />
-      {selectCompenent}
+      {selectComponent}
     </div>
   );
 }
