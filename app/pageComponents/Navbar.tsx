@@ -2,6 +2,7 @@
 import Link from "next/link";
 import AppIcon from "../SVG_Icons/AppIcon";
 import { useAuth } from "@clerk/nextjs";
+import LogoAnName from "../Components/LogoAnName";
 
 function Navbar() {
   const { userId } = useAuth();
@@ -14,22 +15,7 @@ function Navbar() {
           <div className="text-center sm:text-left mb-7 sm:mb-0">
             {/* Icon + Name of the App*/}
             {/*-------------------------*/}
-            <div className="flex gap-2 items-center sm:justify-start justify-center">
-              <span className="text-2xl font-light flex itens-center gap-2">
-                {/*icon*/}
-                <div style={backgroundColorObject} className="p-2 rounded-md">
-                  <AppIcon color="#ffffff" height="34" width="34" />
-                </div>
-                {/*Name of the App*/}
-                <span
-                  style={{ color: "d90429" }}
-                  className="font-bold text-mainColor"
-                >
-                  Habit
-                </span>
-                <span className="font-light">Stacker</span>
-              </span>
-            </div>
+            <LogoAnName />
           </div>
           {/*  */}
           {/* the buttons */}
