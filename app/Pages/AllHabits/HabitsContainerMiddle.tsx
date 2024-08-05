@@ -7,7 +7,7 @@ import { Checkbox, IconButton } from "@mui/material";
 import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
-function HabitsContainerMiddle() {
+export default function HabitsContainerMiddle() {
   return (
     <div className="p-3">
       <HabitCard />
@@ -69,5 +69,3 @@ function HabitCard() {
     </div>
   );
 }
-
-export default HabitsContainerMiddle;
